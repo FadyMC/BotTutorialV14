@@ -18,8 +18,8 @@ client.on('messageCreate', (message) => {
     return;
   }
 
-  if (message.content === 'ping') {
-    message.reply('pong');
+  if (message.content === 'hello') {
+    message.reply('hello there');
   }
 });
 
